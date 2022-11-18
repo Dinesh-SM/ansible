@@ -1,5 +1,5 @@
 ---
-- hosts: webservers 
+- hosts: HCL 
   become: True
   tasks:
     - name: Install packages
